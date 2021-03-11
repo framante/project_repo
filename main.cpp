@@ -5,6 +5,8 @@
 int main(int argc, char ** argv)
 {
   myclass mm(5, 7.0);
+  myclass mm2(10, 5.0);
+  
   std::cout << "this is a modification" << std::endl;
   std::cout << "I also print the content of myclass" << std::endl;
   std::cout << "my class contains " << mm.get_i() << " , " <<
