@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "myclass.hpp"
+#include "my_subfolder/myclass.hpp"
 
 int main(int argc, char ** argv)
 {
