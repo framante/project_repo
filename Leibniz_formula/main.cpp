@@ -1,0 +1,29 @@
+#include <iostream>
+
+typedef float real;
+real Liebniz(unsigned);
+
+int main(int argc, char ** argv)
+{
+  unsigned iterations = 0;
+  std::cout << "insert number of iterations: " << std::endl;
+  std::cin >> iterations;
+  float pi = Liebniz(iterations);
+
+  std::cout << "for " << iterations << " iterations, pi is: " <<
+    pi << std::endl;
+  return 0; 
+
+}
+
+
+real Liebniz(unsigned iterations)
+{
+  real pi = 0.;
+  for(unsigned i = 0; i < iterations; ++i)
+    {
+      unsigned n = 2*i + 1;
+      pi += (i%2 == 0) ? 1./n : -1./n;
+    }
+  return 4.*pi;
+}
