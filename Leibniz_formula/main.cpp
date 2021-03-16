@@ -16,7 +16,7 @@ int main(int argc, char ** argv)
   std::cin >> iterations;
   real pi1 = Liebniz(iterations);
   real pi2 = Liebniz_2(iterations);
-  real pi3 = Richardson_extrapolation(iterations, 0.2);
+  real pi3 = Richardson_extrapolation(iterations, 2);
 
   std::cout << "for " << iterations << " iterations, pi is: " <<
     pi1 << std::endl;
