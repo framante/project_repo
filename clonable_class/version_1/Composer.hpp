@@ -1,0 +1,12 @@
+#include "Derived.hpp"
+
+class Composer
+{
+public:
+  Composer() = default;
+  Composer(ptr_type c);
+  Composer(Composer const & c);  
+  Composer & operator=(Composer const& c);
+private:
+  ptr_type component;
+};
