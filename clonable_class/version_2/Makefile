@@ -1,5 +1,5 @@
-CCX= g++ -std=c++17
-CXXFLAGS= -std=c++17
+CCX= g++
+CXXFLAGS=-std=c++17
 EXEC= main
 
 
