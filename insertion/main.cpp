@@ -3,18 +3,19 @@
 #include <algorithm>
 #include <iostream>
 #include <set>
-
+#include <optional>
 
 int main(int argc, char ** argv)
 {
   std::vector<int> a;
   std::vector<int> b;
   std::set<int> c;
-  std::vector<int> d (2, 0);
 		     
   // fill a and b with values
   a.insert(a.begin(), {1,2,4,7,3});
   b.insert(b.begin(), {5,3,2,10,9});
+  std::vector<int> d ( std::min(a.size(), b.size()) );
+  std::vector<std::optional<int>> e (std::min(a.size(), b.size()));
   
   std::vector<int> intersect;
   // sort vectors
@@ -36,6 +37,10 @@ int main(int argc, char ** argv)
   // insertion in a resized vector. Here you don't need back_inserter since
   // the vector has already been resized conveniently
   std::set_intersection(a.begin(), a.end(), b.begin(), b.end(), d.begin());
+
+  // insertion in a resized vector. Here you don't need back_inserter since
+  // the vector has already been resized conveniently
+  std::set_intersection(a.begin(), a.end(), b.begin(), b.end(), e.begin());
   
   for(auto & elem: a)
     std::cout << elem << " ";
@@ -57,5 +62,13 @@ int main(int argc, char ** argv)
     std::cout << elem << " ";
   std::cout << std::endl;
 
+  for(std::size_t i = 0; i < e.size(); ++i)
+    {
+      if(e[i])
+	std::cout << *e[i] << " ";
+      else
+	std::cout << "value unset ";
+    }
+  std::cout << std::endl;
   return 0;
 }
