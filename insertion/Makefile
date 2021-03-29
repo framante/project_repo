@@ -1,13 +1,15 @@
 CXX=g++
 CXXFLAGS=-std=c++17
 EXEC=main
+SRCS=main.cpp
+OBJS=$(SRCS:.cpp=.o)
 
 all: $(EXEC)
 
 
-main.o: main.cpp
-	$(CXX) $(CXXFLAGS) -c main.cpp
+$(OBJS): $(SRCS)
+	$(CXX) $(CXXFLAGS) -c $(SRCS)
 $(EXEC): main.o
-	$(CXX) main.o -o $(EXEC)
+	$(CXX) $(OBJS) -o $(EXEC)
 clean:
-	rm -f main.o $(EXEC)
+	$(RM) $(EXEC) $(OBJS)

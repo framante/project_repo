@@ -67,8 +67,11 @@ int main(int argc, char ** argv)
       if(e[i])
 	std::cout << *e[i] << " ";
       else
-	std::cout << "value unset ";
+	  e.resize(i);
     }
   std::cout << std::endl;
+  std::cout << e.size() << std::endl;
+
+  
   return 0;
 }
