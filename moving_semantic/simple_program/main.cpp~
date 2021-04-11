@@ -1,0 +1,63 @@
+#include <iostream>
+#include <vector>
+#include <utility>
+
+struct Movable
+{
+  Movable()=default;
+  Movable(const Movable & m)
+    {
+      std::cout << "Copying Movable\n";
+    }
+  Movable(Movable && m)
+    {
+      std::cout << "Moving Movable\n";
+    }
+  Movable & operator =(const Movable & m)
+    {
+      std::cout << "Copy-Assigning Movable\n";
+      return *this;
+    }
+  Movable & operator=(Movable && m)
+    {
+      std::cout << "Move-Assigning Movable\n";
+      return *this;
+    }
+};
+
+void foo(Movable m)
+{
+  Movable a=std::move(m);
+}
+
+template <class T>
+void goo(T&& m)
+{
+  Movable a=std::forward<T>(m); 
+}
+
+int main()
+{
+  std::cout << "m and g are lvalues\n";
+  Movable m;
+  std::cout << "foo(m)\n";
+  foo(m);
+  std::cout << "foo(std::move(m))\n";
+  foo(std::move(m));
+  Movable g;
+  std::cout << "goo(g)\n";
+  goo(g);
+  std::cout << "goo(std::move(g))\n";
+  goo(std::move(g));
+  std::cout << "\nnm is a const lvalue\n";
+  Movable const nm;
+  std::cout << "foo(nm)\n";
+  foo(nm);
+  std::cout << "foo(std::move(nm))\n";
+  foo(std::move(nm));
+  std::cout << "goo(nm)\n";
+  goo(nm);
+  std::cout << "goo(std::move(nm))\n";
+  goo(std::move(nm));
+ 
+}
