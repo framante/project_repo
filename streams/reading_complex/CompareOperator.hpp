@@ -1,0 +1,13 @@
+#ifndef COMPARE_OPERATOR_HPP
+#define COMPARE_OPERATOR_HPP
+
+#include <complex>
+
+struct CompareOperator{
+  bool operator()(const std::complex<double> & lhs, const std::complex<double> & rhs) const
+  {
+    return std::abs(lhs) < std::abs(rhs);
+  }
+};
+
+#endif /* COMPARE_OPERATOR_HPP */

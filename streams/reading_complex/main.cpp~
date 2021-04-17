@@ -1,0 +1,37 @@
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <complex>
+#include <set>
+#include "CompareOperator.hpp"
+
+int main(int argc, char ** argv)
+{
+  std::cout << "name of the file: " << std::endl;
+  std::string filename;
+  std::cin >> filename;
+  
+  std::set<std::complex<double>, CompareOperator> numbers;
+
+  std::ifstream file(filename);
+  std::string line;
+  while(std::getline(file, line))
+    {
+       std::istringstream line_stream(line);
+       if(!line.empty())
+	 {
+	   double real, imag;
+	   line_stream >> real >> imag;
+	   numbers.insert(std::complex<double>(real, imag));
+	 }
+    }
+
+
+  std::cout << "number with smallest modulo: " << *numbers.cbegin()
+	    << std::endl;
+
+  std::cout << "number with largest modulo: " << *numbers.crbegin()
+	    << std::endl;
+  
+  return 0;
+}
