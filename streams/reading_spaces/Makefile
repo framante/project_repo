@@ -1,0 +1,11 @@
+CXX ?= g++
+CXXFLAGS ?= -std=c++17
+EXEC = main
+SRCS = $(wildcard *.cpp)
+OBJS = $(SRCS:.cpp=.o)
+
+all:$(EXEC)
+$(OBJS):$(SRCS)
+	$(CXX) $(CXXFLAGS) -c $(SRCS)
+$(EXEC):$(OBJS)
+	$(CXX) $(OBJS) -o $(EXEC) 

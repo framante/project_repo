@@ -1,5 +1,0 @@
-#ifdef DERPOLY_HPP
-#define DERPOLY_HPP
-
-template<
-#endif /* DERPOLY_HPP */
