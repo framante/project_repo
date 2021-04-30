@@ -1,7 +1,8 @@
 #include "Composer.hpp"
 Composer::Composer(ptr_type c):component{std::move(c)}
     {
-      std::cout<<"Constructor: creating a class composed polymorphically with a Base" << std::endl;
+      std::cout << "Constructor: creating a class composed polymorphically with a Base"
+	        << std::endl;
     }
 
 Composer::Composer(Composer const & c):
