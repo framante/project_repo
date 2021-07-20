@@ -1,0 +1,29 @@
+#ifndef DOT_PRODUCT_HPP
+#define DOT_PRODUCT_HPP
+
+
+#include "complex.hpp"
+#include <vector>
+#include <iostream>
+
+/* Write a function able to take two std::vector<T> and return the 
+ * dot product using the standard formula if T is int or float and
+ * sum a[i] * conjugate(b[j]) if T id a complex
+ */
+
+template<class T>
+float
+dot_product(T & a, T & b)
+{
+  if (a.size() != b.size() )
+    {
+      std::cerr << "different size of a and b" << std::endl;
+      return 0.;
+    }
+  
+  
+}
+
+
+
+#endif /* DOT_PRODUCT_HPP */

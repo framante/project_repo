@@ -1,0 +1,666 @@
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:289,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:24: error: '__fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                        ^~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:37: error: expected identifier before ',' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                     ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:39: error: expected identifier before '(' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                       ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:60: error: 'fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                                            ^~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:21:33: error: expected constructor, destructor, or type conversion before ';' token
+   21 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:24: error: '__signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:34: error: expected identifier before ',' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:36: error: expected identifier before '(' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:57: error: 'signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                                         ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:25:33: error: expected constructor, destructor, or type conversion before ';' token
+   25 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:24: error: '__isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:32: error: expected identifier before ',' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:34: error: expected identifier before '(' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:55: error: 'isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:30:30: error: expected constructor, destructor, or type conversion before ';' token
+   30 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:24: error: '__finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                        ^~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:33: error: expected identifier before ',' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:35: error: expected identifier before '(' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                   ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:56: error: 'finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                                        ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:34:30: error: expected constructor, destructor, or type conversion before ';' token
+   34 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:24: error: '__isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:32: error: expected identifier before ',' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:34: error: expected identifier before '(' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:55: error: 'isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:38:30: error: expected constructor, destructor, or type conversion before ';' token
+   38 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:24: error: '__iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:34: error: expected identifier before ',' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:36: error: expected identifier before '(' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:68: error: 'iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                    ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:76: error: expected constructor, destructor, or type conversion before ';' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                            ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:24: error: '__issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                        ^~~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:38: error: expected identifier before ',' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                      ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:40: error: expected identifier before '(' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                        ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:61: error: 'issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                                             ^~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:45:33: error: expected constructor, destructor, or type conversion before ';' token
+   45 |      __attribute__ ((__const__));
+      |                                 ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:290,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:23: error: 'finite' has not been declared
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                       ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:30: error: expected identifier before ',' token
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:32: error: expected identifier before '(' token
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:53: error: 'finite' has not been declared
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                                                     ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:184:30: error: expected constructor, destructor, or type conversion before ';' token
+  184 |   __attribute__ ((__const__));
+      |                              ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:306,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:24: error: '__fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                        ^~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:37: error: expected identifier before ',' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                     ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:39: error: expected identifier before '(' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                       ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:60: error: 'fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                                            ^~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:21:33: error: expected constructor, destructor, or type conversion before ';' token
+   21 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:24: error: '__signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:34: error: expected identifier before ',' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:36: error: expected identifier before '(' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:57: error: 'signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                                         ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:25:33: error: expected constructor, destructor, or type conversion before ';' token
+   25 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:24: error: '__isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:32: error: expected identifier before ',' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:34: error: expected identifier before '(' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:55: error: 'isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:30:30: error: expected constructor, destructor, or type conversion before ';' token
+   30 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:24: error: '__finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                        ^~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:33: error: expected identifier before ',' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:35: error: expected identifier before '(' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                   ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:56: error: 'finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                                        ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:34:30: error: expected constructor, destructor, or type conversion before ';' token
+   34 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:24: error: '__isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:32: error: expected identifier before ',' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:34: error: expected identifier before '(' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:55: error: 'isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:38:30: error: expected constructor, destructor, or type conversion before ';' token
+   38 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:24: error: '__iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:34: error: expected identifier before ',' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:36: error: expected identifier before '(' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:68: error: 'iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                    ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:76: error: expected constructor, destructor, or type conversion before ';' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                            ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:24: error: '__issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                        ^~~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:38: error: expected identifier before ',' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                      ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:40: error: expected identifier before '(' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                        ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:61: error: 'issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                                             ^~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:45:33: error: expected constructor, destructor, or type conversion before ';' token
+   45 |      __attribute__ ((__const__));
+      |                                 ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:307,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:23: error: 'isinf' has not been declared
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:29: error: expected identifier before ',' token
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                             ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:31: error: expected identifier before '(' token
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                               ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:52: error: 'isinf' has not been declared
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                                                    ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:178:30: error: expected constructor, destructor, or type conversion before ';' token
+  178 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:23: error: 'finite' has not been declared
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                       ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:30: error: expected identifier before ',' token
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:32: error: expected identifier before '(' token
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:53: error: 'finite' has not been declared
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                                                     ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:184:30: error: expected constructor, destructor, or type conversion before ';' token
+  184 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:23: error: 'isnan' has not been declared
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:29: error: expected identifier before ',' token
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                             ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:31: error: expected identifier before '(' token
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                               ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:52: error: 'isnan' has not been declared
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                                                    ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:214:30: error: expected constructor, destructor, or type conversion before ';' token
+  214 |   __attribute__ ((__const__));
+      |                              ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:349,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:24: error: '__fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                        ^~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:37: error: expected identifier before ',' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                     ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:39: error: expected identifier before '(' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                       ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:60: error: 'fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                                            ^~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:21:33: error: expected constructor, destructor, or type conversion before ';' token
+   21 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:24: error: '__signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:34: error: expected identifier before ',' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:36: error: expected identifier before '(' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:57: error: 'signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                                         ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:25:33: error: expected constructor, destructor, or type conversion before ';' token
+   25 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:24: error: '__isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:32: error: expected identifier before ',' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:34: error: expected identifier before '(' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:55: error: 'isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:30:30: error: expected constructor, destructor, or type conversion before ';' token
+   30 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:24: error: '__finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                        ^~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:33: error: expected identifier before ',' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:35: error: expected identifier before '(' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                   ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:56: error: 'finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                                        ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:34:30: error: expected constructor, destructor, or type conversion before ';' token
+   34 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:24: error: '__isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:32: error: expected identifier before ',' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:34: error: expected identifier before '(' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:55: error: 'isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:38:30: error: expected constructor, destructor, or type conversion before ';' token
+   38 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:24: error: '__iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:34: error: expected identifier before ',' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:36: error: expected identifier before '(' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:68: error: 'iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                    ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:76: error: expected constructor, destructor, or type conversion before ';' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                            ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:24: error: '__issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                        ^~~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:38: error: expected identifier before ',' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                      ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:40: error: expected identifier before '(' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                        ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:61: error: 'issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                                             ^~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:45:33: error: expected constructor, destructor, or type conversion before ';' token
+   45 |      __attribute__ ((__const__));
+      |                                 ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:350,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:23: error: 'isinf' has not been declared
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:29: error: expected identifier before ',' token
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                             ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:31: error: expected identifier before '(' token
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                               ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:177:52: error: 'isinf' has not been declared
+  177 | __MATHDECL_ALIAS (int,isinf,, (_Mdouble_ __value), isinf)
+      |                                                    ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:178:30: error: expected constructor, destructor, or type conversion before ';' token
+  178 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:23: error: 'finite' has not been declared
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                       ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:30: error: expected identifier before ',' token
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:32: error: expected identifier before '(' token
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:183:53: error: 'finite' has not been declared
+  183 | __MATHDECL_ALIAS (int,finite,, (_Mdouble_ __value), finite)
+      |                                                     ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:184:30: error: expected constructor, destructor, or type conversion before ';' token
+  184 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:23: error: 'isnan' has not been declared
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:29: error: expected identifier before ',' token
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                             ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:31: error: expected identifier before '(' token
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                               ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:213:52: error: 'isnan' has not been declared
+  213 | __MATHDECL_ALIAS (int,isnan,, (_Mdouble_ __value), isnan)
+      |                                                    ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls.h:214:30: error: expected constructor, destructor, or type conversion before ';' token
+  214 |   __attribute__ ((__const__));
+      |                              ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:420,
+                 from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:24: error: '__fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                        ^~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:37: error: expected identifier before ',' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                     ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:39: error: expected identifier before '(' token
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                       ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:20:60: error: 'fpclassify' has not been declared
+   20 | __MATHDECL_ALIAS (int, __fpclassify,, (_Mdouble_ __value), fpclassify)
+      |                                                            ^~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:21:33: error: expected constructor, destructor, or type conversion before ';' token
+   21 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:24: error: '__signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:34: error: expected identifier before ',' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:36: error: expected identifier before '(' token
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:24:57: error: 'signbit' has not been declared
+   24 | __MATHDECL_ALIAS (int, __signbit,, (_Mdouble_ __value), signbit)
+      |                                                         ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:25:33: error: expected constructor, destructor, or type conversion before ';' token
+   25 |      __attribute__ ((__const__));
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:24: error: '__isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:32: error: expected identifier before ',' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:34: error: expected identifier before '(' token
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:29:55: error: 'isinf' has not been declared
+   29 | __MATHDECL_ALIAS (int, __isinf,, (_Mdouble_ __value), isinf)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:30:30: error: expected constructor, destructor, or type conversion before ';' token
+   30 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:24: error: '__finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                        ^~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:33: error: expected identifier before ',' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                 ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:35: error: expected identifier before '(' token
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                   ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:33:56: error: 'finite' has not been declared
+   33 | __MATHDECL_ALIAS (int, __finite,, (_Mdouble_ __value), finite)
+      |                                                        ^~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:34:30: error: expected constructor, destructor, or type conversion before ';' token
+   34 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:24: error: '__isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                        ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:32: error: expected identifier before ',' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:34: error: expected identifier before '(' token
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:37:55: error: 'isnan' has not been declared
+   37 | __MATHDECL_ALIAS (int, __isnan,, (_Mdouble_ __value), isnan)
+      |                                                       ^~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:38:30: error: expected constructor, destructor, or type conversion before ';' token
+   38 |   __attribute__ ((__const__));
+      |                              ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:24: error: '__iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                        ^~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:34: error: expected identifier before ',' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                  ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:36: error: expected identifier before '(' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                    ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:68: error: 'iseqsig' has not been declared
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                    ^~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:41:76: error: expected constructor, destructor, or type conversion before ';' token
+   41 | __MATHDECL_ALIAS (int, __iseqsig,, (_Mdouble_ __x, _Mdouble_ __y), iseqsig);
+      |                                                                            ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:24: error: '__issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                        ^~~~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:38: error: expected identifier before ',' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                      ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:40: error: expected identifier before '(' token
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                        ^
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:44:61: error: 'issignaling' has not been declared
+   44 | __MATHDECL_ALIAS (int, __issignaling,, (_Mdouble_ __value), issignaling)
+      |                                                             ^~~~~~~~~~~
+/u/sw/toolchains/gcc-glibc/11/prefix/include/bits/mathcalls-helper-functions.h:45:33: error: expected constructor, destructor, or type conversion before ';' token
+   45 |      __attribute__ ((__const__));
+      |                                 ^
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In function 'int issignaling(float)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:981:47: error: '__issignalingf' was not declared in this scope; did you mean 'issignaling'?
+  981 | inline int issignaling (float __val) { return __issignalingf (__val); }
+      |                                               ^~~~~~~~~~~~~~
+      |                                               issignaling
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In function 'int issignaling(double)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:982:48: error: '__issignaling' was not declared in this scope; did you mean 'issignaling'?
+  982 | inline int issignaling (double __val) { return __issignaling (__val); }
+      |                                                ^~~~~~~~~~~~~
+      |                                                issignaling
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In function 'int issignaling(long double)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:989:10: error: '__issignalingl' was not declared in this scope; did you mean 'issignaling'?
+  989 |   return __issignalingl (__val);
+      |          ^~~~~~~~~~~~~~
+      |          issignaling
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In function 'int issignaling(_Float128)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:995:51: error: '__issignalingf128' was not declared in this scope; did you mean 'issignaling'?
+  995 | inline int issignaling (_Float128 __val) { return __issignalingf128 (__val); }
+      |                                                   ^~~~~~~~~~~~~~~~~
+      |                                                   issignaling
+In file included from /u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/c++/9.2.0/cmath:45,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/numbers.h:28,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:497,
+                 from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In static member function 'static int __iseqsig_type<float>::__call(float, float)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:1500:12: error: '__iseqsigf' was not declared in this scope; did you mean '__iseqsig_type'?
+ 1500 |     return __iseqsigf (__x, __y);
+      |            ^~~~~~~~~~
+      |            __iseqsig_type
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In static member function 'static int __iseqsig_type<double>::__call(double, double)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:1508:12: error: '__iseqsig' was not declared in this scope; did you mean '__iseqsig_type'?
+ 1508 |     return __iseqsig (__x, __y);
+      |            ^~~~~~~~~
+      |            __iseqsig_type
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In static member function 'static int __iseqsig_type<long double>::__call(long double, long double)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:1517:12: error: '__iseqsigl' was not declared in this scope; did you mean '__iseqsig_type'?
+ 1517 |     return __iseqsigl (__x, __y);
+      |            ^~~~~~~~~~
+      |            __iseqsig_type
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h: In static member function 'static int __iseqsig_type<__float128>::__call(_Float128, _Float128)':
+/u/sw/pkgs/toolchains/gcc-glibc/9/prefix/include/math.h:1531:12: error: '__iseqsigf128' was not declared in this scope
+ 1531 |     return __iseqsigf128 (__x, __y);
+      |            ^~~~~~~~~~~~~
+In file included from /u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/exceptions.h:19,
+                 from /home/fmante/lifex/lifex/core/exceptions.hpp:29,
+                 from /home/fmante/lifex/lifex/lifex.hpp:29,
+                 from /home/fmante/lifex/lifex/core/core.hpp:31,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.hpp:30,
+                 from /home/fmante/lifex/lifex/core/command_line_parser.cpp:27:
+/u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h: At global scope:
+/u/sw/toolchains/gcc-glibc/11/pkgs/dealii/9.3.1/include/deal.II/base/config.h:508:17: error: static assertion failed: The version number of boost that you are compiling with does not match the version number of boost found during deal.II's configuration step. This leads to difficult to understand bugs and is not supported. Please check that you have set up your application with the same version of boost as deal.II.
+  508 |   BOOST_VERSION == 100000 * DEAL_II_BOOST_VERSION_MAJOR +
+      |                 ^
+ls
+make[2]: *** [lifex/CMakeFiles/core.dir/build.make:76: lifex/CMakeFiles/core.dir/core/command_line_parser.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1570: lifex/CMakeFiles/core.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
