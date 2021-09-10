@@ -1,3 +1,0 @@
-/home/fmante/my_folder/dealii_try/step26/build/CMakeFiles/rebuild_cache.dir
-/home/fmante/my_folder/dealii_try/step26/build/CMakeFiles/edit_cache.dir
-/home/fmante/my_folder/dealii_try/step26/build/CMakeFiles/main.dir
